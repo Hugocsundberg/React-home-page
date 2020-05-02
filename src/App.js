@@ -1,24 +1,50 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./header";
+import Video_block from "./video_block";
+import Image_block from "./image_block";
+import "./fadein.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Video_block
+        video="2"
+        height="60"
+        text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+            enim ad magnam beatae, minus ipsum eius commodi eos quod
+            consequuntur. Minima hic autem quas? Sunt hic optio error iste
+            fugit."
+        headline="Lorem Ipsum"
+        tool1="react"
+        tool2="js"
+        buttontext="TESTTEXT"
+      />
+      <Image_block
+        id="secondBlock"
+        video="1"
+        height="80"
+        text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+            enim ad magnam beatae, minus ipsum eius commodi eos quod
+            consequuntur. Minima hic autem quas? Sunt hic optio error iste
+            fugit."
+        headline="Lorem Ipsum"
+        tool1="react"
+        tool2="js"
+      />
+      <Image_block
+        id="thirdBlock"
+        video="1"
+        height="80"
+        text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
+            enim ad magnam beatae, minus ipsum eius commodi eos quod
+            consequuntur. Minima hic autem quas? Sunt hic optio error iste
+            fugit."
+        headline="Lorem Ipsum"
+        tool1="react"
+        tool2="js"
+        buttontext="Klicka här"
+      />
     </div>
   );
 }
