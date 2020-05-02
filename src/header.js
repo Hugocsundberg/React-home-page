@@ -1,5 +1,13 @@
 import "./header.css";
 import React, { Component } from "react";
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from "react-scroll";
 
 export default class Header extends Component {
   constructor() {
@@ -8,6 +16,10 @@ export default class Header extends Component {
       scrollDirection: "top",
       deedIsDone: false,
     };
+  }
+
+  toTop() {
+    scroll.scrollToTop();
   }
 
   componentDidMount() {
@@ -54,7 +66,9 @@ export default class Header extends Component {
   render() {
     return (
       <div className={`container ${this.state.scrollDirection}`}>
-        <p className="text">{this.state.scrollDirection}</p>
+        <p onClick={this.toTop} className="text">
+          HS
+        </p>
       </div>
     );
   }

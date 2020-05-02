@@ -34,7 +34,7 @@ export default class Video_block extends Component {
         duration: 1000,
         delay: 0,
         smooth: "easeInOutQuint",
-        offset: 40,
+        offset: 50,
       });
       console.log(this.state.isExpanded);
     } else {
@@ -86,7 +86,7 @@ export default class Video_block extends Component {
             muted
             src={this.props.video == "1" ? video : video2}
             style={{
-              height: parseInt(this.props.height) + 10 + "%",
+              height: parseInt(this.props.height) + 20 + "vh",
             }}
           ></video>
           <div className={styles.gridcontainer}>
@@ -129,9 +129,6 @@ export default class Video_block extends Component {
             </button>
           </div>
         </div>
-        <Element name="test1" className="element">
-          test 1
-        </Element>
       </div>
     );
   }

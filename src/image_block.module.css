@@ -4,17 +4,18 @@
   background-color: rgba(255, 255, 255, 0);
 }
 
-.sections {
-  /* height: 62vh; */
+/* .sections {
+  height: 62vh;
   width: 100vw;
   background-color: rgb(255, 255, 255);
   position: relative;
-}
+} */
 
 .section1 {
   background-attachment: fixed;
   background-size: cover;
   position: relative;
+  background-image: url("https://images.pexels.com/photos/853199/pexels-photo-853199.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
 }
 
 .gridcontainer {
@@ -48,7 +49,7 @@
   overflow: hidden;
 }
 
-.section1 video {
+.image {
   transform: translate(-50%, 0);
   position: fixed;
   left: 50%;
@@ -56,8 +57,6 @@
   bottom: 500px;
   object-fit: cover;
   width: 100%;
-  height: 60%;
-  /* opacity: 0; */
 }
 
 .fadein {
@@ -81,6 +80,31 @@
   transform: translate(-25%) rotate(2deg);
   background-color: rgb(255, 255, 255);
   margin-top: -30px;
+  margin-bottom: -30px;
+  transition: 1s;
+}
+
+.expanded {
+  transition: 1s;
+  height: calc(100vh + 50px);
+  position: absolute;
+  /* top: 0px; */
+  transform: rotate(0deg) translate(-25%);
+  background-color: rgba(255, 255, 255, 0.514);
+  z-index: 200;
+}
+
+.expandButton {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  height: 44px;
+  width: 150px;
+  background-color: transparent;
+  border: none;
+  text-decoration: underline;
+  font-size: 14px;
+  text-align: left;
 }
 
 .calmContainer {
@@ -92,7 +116,7 @@
   transform: translate(50%);
 }
 
-.calmContainer button {
+.goToAppButton {
   height: 44px;
   width: 150px;
   position: absolute;

@@ -21,7 +21,7 @@ function App() {
         buttontext="TESTTEXT"
       />
       <Image_block
-        id="secondBlock"
+        name="secondBlock"
         video="1"
         height="80"
         text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
@@ -33,7 +33,7 @@ function App() {
         tool2="js"
       />
       <Image_block
-        id="thirdBlock"
+        name="thirdBlock"
         video="1"
         height="80"
         text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt
