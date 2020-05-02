@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/React-home-page/static/css/main.0474edae.chunk.css",
-    "main.js": "/React-home-page/static/js/main.58c04b4f.chunk.js",
-    "main.js.map": "/React-home-page/static/js/main.58c04b4f.chunk.js.map",
+    "main.css": "/React-home-page/static/css/main.720798a2.chunk.css",
+    "main.js": "/React-home-page/static/js/main.d51b7c72.chunk.js",
+    "main.js.map": "/React-home-page/static/js/main.d51b7c72.chunk.js.map",
     "runtime-main.js": "/React-home-page/static/js/runtime-main.1235a376.js",
     "runtime-main.js.map": "/React-home-page/static/js/runtime-main.1235a376.js.map",
-    "static/js/2.e89fda18.chunk.js": "/React-home-page/static/js/2.e89fda18.chunk.js",
-    "static/js/2.e89fda18.chunk.js.map": "/React-home-page/static/js/2.e89fda18.chunk.js.map",
+    "static/js/2.403728e9.chunk.js": "/React-home-page/static/js/2.403728e9.chunk.js",
+    "static/js/2.403728e9.chunk.js.map": "/React-home-page/static/js/2.403728e9.chunk.js.map",
     "index.html": "/React-home-page/index.html",
-    "precache-manifest.f7b477cd27f3dc445039141f299ba9a1.js": "/React-home-page/precache-manifest.f7b477cd27f3dc445039141f299ba9a1.js",
+    "precache-manifest.056b49772600444971e9383f30ba3aee.js": "/React-home-page/precache-manifest.056b49772600444971e9383f30ba3aee.js",
     "service-worker.js": "/React-home-page/service-worker.js",
-    "static/css/main.0474edae.chunk.css.map": "/React-home-page/static/css/main.0474edae.chunk.css.map",
-    "static/js/2.e89fda18.chunk.js.LICENSE.txt": "/React-home-page/static/js/2.e89fda18.chunk.js.LICENSE.txt",
+    "static/css/main.720798a2.chunk.css.map": "/React-home-page/static/css/main.720798a2.chunk.css.map",
+    "static/js/2.403728e9.chunk.js.LICENSE.txt": "/React-home-page/static/js/2.403728e9.chunk.js.LICENSE.txt",
     "static/media/animalvideo.mp4": "/React-home-page/static/media/animalvideo.6a6bcaaf.mp4",
     "static/media/image_block.module.css": "/React-home-page/static/media/react.e461014e.png",
     "static/media/video.mp4": "/React-home-page/static/media/video.2f4ac38f.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.1235a376.js",
-    "static/js/2.e89fda18.chunk.js",
-    "static/css/main.0474edae.chunk.css",
-    "static/js/main.58c04b4f.chunk.js"
+    "static/js/2.403728e9.chunk.js",
+    "static/css/main.720798a2.chunk.css",
+    "static/js/main.d51b7c72.chunk.js"
   ]
 }
