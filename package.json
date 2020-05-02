@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Hugocsundberg.github.io/React-home-page",
   "name": "hello-world",
   "version": "0.1.0",
   "homepage": "http://svartkaff3.se",
@@ -14,6 +15,8 @@
     "react-scroll": "^1.7.16"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
