@@ -1,0 +1,37 @@
+.switch {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  z-index: 1000;
+  position: fixed;
+  top: 90%;
+  transition: 0.5s;
+}
+
+.darkMode {
+  color: white;
+  background-color: black;
+  background-image: url(./media/lighticon.svg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 0px 58px -21px rgba(0, 0, 0, 0.75);
+}
+
+.lightMode {
+  color: black;
+  background-color: white;
+  background-image: url(./media/darkicon.svg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: 0px 0px 58px -5px rgba(0, 0, 0, 0.75);
+}
+
+.rightHanded {
+  left: 90%;
+}
+
+.leftHanded {
+  left: 10%;
+}

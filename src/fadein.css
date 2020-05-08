@@ -10,3 +10,12 @@
 .App {
   animation: fadein 2s;
 }
+
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  transition: 1s;
+}

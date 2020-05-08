@@ -21,6 +21,7 @@ export default class Video_block extends Component {
       buttonEffect: null,
       media: 2,
       isExpanded: false,
+      darkMode: this.props.darkMode,
     };
     this.expandedSwitch = this.expandedSwitch.bind(this);
   }
@@ -36,7 +37,6 @@ export default class Video_block extends Component {
         smooth: "easeInOutQuint",
         offset: 50,
       });
-      console.log(this.state.isExpanded);
     } else {
       this.setState({
         isExpanded: false,
@@ -49,8 +49,19 @@ export default class Video_block extends Component {
     }
   }
 
+  componentWillReceiveProps() {
+    setTimeout(() => {
+      this.setState({
+        darkMode: this.props.darkMode,
+      });
+      this.state.darkMode
+        ? (document.body.style.backgroundColor = "black")
+        : (document.body.style.backgroundColor = "white");
+      console.log("darkmode is: " + this.state.darkMode);
+    }, 5);
+  }
+
   componentDidMount() {
-    console.log(parseInt(this.props.height) + 10);
     setInterval(() => {}, 1000);
     const dataIsLoaded = () => {
       this.setState({
@@ -74,7 +85,7 @@ export default class Video_block extends Component {
 
   render() {
     return (
-      <div className={styles.contentMain}>
+      <div className={`${styles.contentMain}`}>
         <div
           className={styles.section1}
           style={{ height: `${this.props.height}vh` }}
@@ -104,22 +115,44 @@ export default class Video_block extends Component {
         <div
           className={`${styles.section2} ${
             this.state.isExpanded ? styles.expanded : " "
-          }`}
+          } ${this.state.darkMode ? styles.black_background : " "}`}
           onClick={this.expandedSwitch}
           name="section2"
         >
-          <div className={styles.calmContainer}>
-            <h1>{this.props.headline}</h1>
-            <p className={styles.sec2p}>{this.props.text}</p>
-            <button
-              className={this.state.buttonEffect ? "buttonAttention" : " "}
-              className={styles.goToAppButton}
+          <div
+            className={`${styles.calmContainer} ${
+              this.state.darkMode ? styles.black_background : " "
+            } ${styles.transition}`}
+          >
+            <h1 className={` ${this.state.darkMode ? styles.white_text : " "}`}>
+              {this.props.headline}
+            </h1>
+            <p
+              className={`${styles.sec2p}  ${
+                this.state.darkMode ? styles.white_text : " "
+              }`}
             >
-              <p className={styles.buttontext}>{this.props.buttontext}</p>
+              {`${this.props.text}  ${
+                this.state.isExpanded ? this.props.expandedText : ""
+              }`}
+            </p>
+            <button
+              // className={this.state.buttonEffect ? "buttonAttention" : " "}
+              className={`${styles.goToAppButton}`}
+            >
+              <p
+                className={`${styles.buttontext}  ${
+                  this.state.darkMode ? styles.white_text : " "
+                }`}
+              >
+                {`${this.props.buttontext}`}
+              </p>
             </button>
             <button
               onClick={this.expandedSwitch}
-              className={styles.expandButton}
+              className={`${styles.expandButton}  ${
+                this.state.darkMode ? styles.white_text : " "
+              }`}
               name="knapp"
               // to="section2"
               smooth={true}
