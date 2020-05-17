@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-home-page/static/css/main.9aabc98b.chunk.css",
-    "main.js": "/React-home-page/static/js/main.2207ebfe.chunk.js",
-    "main.js.map": "/React-home-page/static/js/main.2207ebfe.chunk.js.map",
+    "main.css": "/React-home-page/static/css/main.aaf26c1a.chunk.css",
+    "main.js": "/React-home-page/static/js/main.19a4d00a.chunk.js",
+    "main.js.map": "/React-home-page/static/js/main.19a4d00a.chunk.js.map",
     "runtime-main.js": "/React-home-page/static/js/runtime-main.1235a376.js",
     "runtime-main.js.map": "/React-home-page/static/js/runtime-main.1235a376.js.map",
-    "static/js/2.70c91bfa.chunk.js": "/React-home-page/static/js/2.70c91bfa.chunk.js",
-    "static/js/2.70c91bfa.chunk.js.map": "/React-home-page/static/js/2.70c91bfa.chunk.js.map",
+    "static/js/2.2dcef698.chunk.js": "/React-home-page/static/js/2.2dcef698.chunk.js",
+    "static/js/2.2dcef698.chunk.js.map": "/React-home-page/static/js/2.2dcef698.chunk.js.map",
     "index.html": "/React-home-page/index.html",
-    "precache-manifest.5c7759d647c7a42f823753396ae6eb78.js": "/React-home-page/precache-manifest.5c7759d647c7a42f823753396ae6eb78.js",
+    "precache-manifest.dd700d6efd6b401fcfdd6c59f246632e.js": "/React-home-page/precache-manifest.dd700d6efd6b401fcfdd6c59f246632e.js",
     "service-worker.js": "/React-home-page/service-worker.js",
-    "static/css/main.9aabc98b.chunk.css.map": "/React-home-page/static/css/main.9aabc98b.chunk.css.map",
-    "static/js/2.70c91bfa.chunk.js.LICENSE.txt": "/React-home-page/static/js/2.70c91bfa.chunk.js.LICENSE.txt",
+    "static/css/main.aaf26c1a.chunk.css.map": "/React-home-page/static/css/main.aaf26c1a.chunk.css.map",
+    "static/js/2.2dcef698.chunk.js.LICENSE.txt": "/React-home-page/static/js/2.2dcef698.chunk.js.LICENSE.txt",
     "static/media/Screenshot_1.png": "/React-home-page/static/media/Screenshot_1.a3356021.png",
     "static/media/animalvideo.mp4": "/React-home-page/static/media/animalvideo.6a6bcaaf.mp4",
     "static/media/darkMode_switch.module.css": "/React-home-page/static/media/lighticon.2d39910b.svg",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.1235a376.js",
-    "static/js/2.70c91bfa.chunk.js",
-    "static/css/main.9aabc98b.chunk.css",
-    "static/js/main.2207ebfe.chunk.js"
+    "static/js/2.2dcef698.chunk.js",
+    "static/css/main.aaf26c1a.chunk.css",
+    "static/js/main.19a4d00a.chunk.js"
   ]
 }
