@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/React-home-page/static/css/main.62ba92c6.chunk.css",
-    "main.js": "/React-home-page/static/js/main.8b48af2e.chunk.js",
-    "main.js.map": "/React-home-page/static/js/main.8b48af2e.chunk.js.map",
+    "main.css": "/React-home-page/static/css/main.5b990c37.chunk.css",
+    "main.js": "/React-home-page/static/js/main.7999360f.chunk.js",
+    "main.js.map": "/React-home-page/static/js/main.7999360f.chunk.js.map",
     "runtime-main.js": "/React-home-page/static/js/runtime-main.1235a376.js",
     "runtime-main.js.map": "/React-home-page/static/js/runtime-main.1235a376.js.map",
-    "static/js/2.a0435f06.chunk.js": "/React-home-page/static/js/2.a0435f06.chunk.js",
-    "static/js/2.a0435f06.chunk.js.map": "/React-home-page/static/js/2.a0435f06.chunk.js.map",
+    "static/js/2.97e2b03d.chunk.js": "/React-home-page/static/js/2.97e2b03d.chunk.js",
+    "static/js/2.97e2b03d.chunk.js.map": "/React-home-page/static/js/2.97e2b03d.chunk.js.map",
     "index.html": "/React-home-page/index.html",
-    "precache-manifest.89969f6a3278d9c29847c60ffa446b2a.js": "/React-home-page/precache-manifest.89969f6a3278d9c29847c60ffa446b2a.js",
+    "precache-manifest.d4f1d05e964d1cf31d5662b3334296e0.js": "/React-home-page/precache-manifest.d4f1d05e964d1cf31d5662b3334296e0.js",
     "service-worker.js": "/React-home-page/service-worker.js",
-    "static/css/main.62ba92c6.chunk.css.map": "/React-home-page/static/css/main.62ba92c6.chunk.css.map",
-    "static/js/2.a0435f06.chunk.js.LICENSE.txt": "/React-home-page/static/js/2.a0435f06.chunk.js.LICENSE.txt",
+    "static/css/main.5b990c37.chunk.css.map": "/React-home-page/static/css/main.5b990c37.chunk.css.map",
+    "static/js/2.97e2b03d.chunk.js.LICENSE.txt": "/React-home-page/static/js/2.97e2b03d.chunk.js.LICENSE.txt",
     "static/media/Screenshot_1.png": "/React-home-page/static/media/Screenshot_1.a3356021.png",
     "static/media/animalvideo.mp4": "/React-home-page/static/media/animalvideo.6a6bcaaf.mp4",
-    "static/media/darkMode_switch.module.css": "/React-home-page/static/media/lighticon.2d39910b.svg",
-    "static/media/image_block.module.css": "/React-home-page/static/media/react.e461014e.png",
-    "static/media/video.mp4": "/React-home-page/static/media/video.2f4ac38f.mp4"
+    "static/media/image_block.module.css": "/React-home-page/static/media/react.e461014e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1235a376.js",
-    "static/js/2.a0435f06.chunk.js",
-    "static/css/main.62ba92c6.chunk.css",
-    "static/js/main.8b48af2e.chunk.js"
+    "static/js/2.97e2b03d.chunk.js",
+    "static/css/main.5b990c37.chunk.css",
+    "static/js/main.7999360f.chunk.js"
   ]
 }
