@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-home-page/static/css/main.e8e55a42.chunk.css",
+    "main.css": "/React-home-page/static/css/main.ac16723a.chunk.css",
     "main.js": "/React-home-page/static/js/main.7999360f.chunk.js",
     "main.js.map": "/React-home-page/static/js/main.7999360f.chunk.js.map",
     "runtime-main.js": "/React-home-page/static/js/runtime-main.1235a376.js",
@@ -8,9 +8,9 @@
     "static/js/2.97e2b03d.chunk.js": "/React-home-page/static/js/2.97e2b03d.chunk.js",
     "static/js/2.97e2b03d.chunk.js.map": "/React-home-page/static/js/2.97e2b03d.chunk.js.map",
     "index.html": "/React-home-page/index.html",
-    "precache-manifest.8a026a68a108da90cf9f530d6ae2fb66.js": "/React-home-page/precache-manifest.8a026a68a108da90cf9f530d6ae2fb66.js",
+    "precache-manifest.0ea724c4e034557616f0557b40458508.js": "/React-home-page/precache-manifest.0ea724c4e034557616f0557b40458508.js",
     "service-worker.js": "/React-home-page/service-worker.js",
-    "static/css/main.e8e55a42.chunk.css.map": "/React-home-page/static/css/main.e8e55a42.chunk.css.map",
+    "static/css/main.ac16723a.chunk.css.map": "/React-home-page/static/css/main.ac16723a.chunk.css.map",
     "static/js/2.97e2b03d.chunk.js.LICENSE.txt": "/React-home-page/static/js/2.97e2b03d.chunk.js.LICENSE.txt",
     "static/media/Screenshot_1.png": "/React-home-page/static/media/Screenshot_1.a3356021.png",
     "static/media/animalvideo.mp4": "/React-home-page/static/media/animalvideo.6a6bcaaf.mp4",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.1235a376.js",
     "static/js/2.97e2b03d.chunk.js",
-    "static/css/main.e8e55a42.chunk.css",
+    "static/css/main.ac16723a.chunk.css",
     "static/js/main.7999360f.chunk.js"
   ]
 }
